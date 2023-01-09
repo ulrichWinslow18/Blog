@@ -9,9 +9,9 @@
             </button>
             <div class="collapse navbar-collapse justify-content-between px-0 px-lg-3" id="navbarCollapse">
                 <div class="navbar-nav mr-auto py-0">
-                    <a href="index.html" class="nav-item nav-link active">Accueil</a>
-                    <a href="category.html" class="nav-item nav-link">Tutoriels</a>
-                    <a href="single.html" class="nav-item nav-link">100% Local</a>
+                    <a href="{{route('accueil')}}" class="nav-item nav-link active">Accueil</a>
+                    <a href="{{route('tuto')}}" class="nav-item nav-link">Tutoriels</a>
+                    <a href="{{route('local')}}" class="nav-item nav-link">100% Local</a>
                     <!-- <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Dropdown</a>
                         <div class="dropdown-menu rounded-0 m-0">
@@ -20,7 +20,7 @@
                             <a href="#" class="dropdown-item">Menu item 3</a>
                         </div>
                     </div> -->
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    <a href="{{route('contact')}}" class="nav-item nav-link">Contact</a>
                 </div>
                 <div class="input-group ml-auto" style="width: 100%; max-width: 300px;">
                     <input type="text" class="form-control" placeholder="Keyword">

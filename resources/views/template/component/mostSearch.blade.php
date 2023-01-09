@@ -1,0 +1,1 @@
+@livewire('coomponent-index.most-search')

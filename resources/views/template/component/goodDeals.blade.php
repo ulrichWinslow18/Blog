@@ -59,4 +59,6 @@
                             </div>
                         </div>
                     </div>
-<!-- Popular News End -->
+<!-- Popular News End --><div>
+
+</div>
