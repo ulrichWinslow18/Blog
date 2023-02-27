@@ -5,15 +5,15 @@
     <div class="container-fluid py-3">
         <div class="container">
             <div class="row">
-                @include('template.component.rightSlide')
-                @include('template.component.leftSlide')
+                @livewire('coomponent-index.right-slide')
+                @livewire('coomponent-index.categories')
             </div>
         </div>
     </div>
     <!-- Main News Slider End -->
 
 
-      @include('template.component.featuredSlide')
+    @livewire('coomponent-index.top-articles')
 
     <!-- Category News Slider Start -->
     <div class="container-fluid">

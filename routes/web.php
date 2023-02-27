@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\articleController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,10 +22,12 @@ Route::get('/tutoriels', function () {
     return view('tutoriels');     
 })->name('tuto');
 
-Route::get('/local', function () {
-    return view('local');     
-})->name('local');
+Route::get('/local', [articleController::class, 'index'])->name('local');
 
 Route::get('/contact', function () {
     return view('contact');     
 })->name('contact');
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});

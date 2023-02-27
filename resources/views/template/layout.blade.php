@@ -16,11 +16,10 @@
 
 <body>
 
-    @include('template.topSlide')
+    @livewire('coomponent-index.falsh-news')
 
-    @include('template.nav')
-
-    @include('template.bottomSlide')
+    @livewire('coomponent-index.navbar')
+    @livewire('coomponent-index.bottomslide')
 
 
 

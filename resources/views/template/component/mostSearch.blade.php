@@ -1,1 +1,1 @@
-@livewire('coomponent-index.most-search')
+@livewire('coomponent-index.best-practices')
